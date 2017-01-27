@@ -1,6 +1,6 @@
 class Airplane
   attr_reader :type, :wing_loading, :horsepower
-  attr_accessor :status, :plane_status
+  attr_accessor :status
 
   def initialize(type, wing_loading, horsepower, status)
     @type = type
